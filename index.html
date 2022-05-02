@@ -106,7 +106,7 @@ NOTE: The story menu only displays links—specifically, anything that creates a
 Examples:
 [[Inventory]]
 &lt;&lt;link &quot;Schedule&quot;&gt;&gt;…&lt;&lt;/link&gt;&gt; */
-[[The path upto the tower]]
+[[Start]]
 [[Links]]
 [[Templates]]
 [[Campaign Game Session Layout]]
@@ -121,7 +121,8 @@ Examples:
 [[Adult Personality Types]]
 [[Player Character Design]]</tw-passagedata><tw-passagedata pid="8" name="StoryShare" tags="" position="975,100" size="100,100">/* Used to populate the contents of the Share dialog. Intended for social media links.
 NOTE: The Share dialog only displays links—specifically, anything that creates an anchor element (&lt;a&gt;). While it renders content just as any other passage does, instead of displaying the rendered output as-is, it sifts through the output and builds its contents from the generated links contained therein. */</tw-passagedata><tw-passagedata pid="9" name="PassageDone" tags="" position="1100,100" size="100,100">/* Used for post-passage-display tasks, like redoing dynamic changes (happens after the rendering and display of each passage). Generates no output. */</tw-passagedata><tw-passagedata pid="10" name="PassageFooter" tags="" position="1225,100" size="100,100">/* Appended to each rendered passage. */</tw-passagedata><tw-passagedata pid="11" name="PassageHeader" tags="" position="100,225" size="100,100">/* Prepended to each rendered passage. */
-passage()</tw-passagedata><tw-passagedata pid="12" name="PassageReady" tags="" position="225,225" size="100,100">/* Used for pre-passage-display tasks, like redoing dynamic changes (happens before the rendering of each passage). Generates no output. */</tw-passagedata><tw-passagedata pid="13" name="The path upto the tower" tags="" position="350,225" size="100,100">This is a test to see if this is displaying the right stuff</tw-passagedata><tw-passagedata pid="14" name="Tag Names" tags="" position="475,225" size="100,100">bookmark
+$currentpassage = passage()
+&lt;&lt;print $currentpassage&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="PassageReady" tags="" position="225,225" size="100,100">/* Used for pre-passage-display tasks, like redoing dynamic changes (happens before the rendering of each passage). Generates no output. */</tw-passagedata><tw-passagedata pid="13" name="Start" tags="" position="350,225" size="100,100">This is a test to see if this is displaying the right stuff</tw-passagedata><tw-passagedata pid="14" name="Tag Names" tags="" position="475,225" size="100,100">bookmark
 Registers the passage into the Jump To menu.
 
 nobr
