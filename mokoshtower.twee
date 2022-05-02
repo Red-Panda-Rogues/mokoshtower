@@ -3,7 +3,7 @@
     "ifid": "26B7D5A6-2C87-47E5-BE24-98759905673A",
     "format": "SugarCube",
     "format-version": "2.36.1",
-    "start": "Start"
+    "start": "The path upto the tower"
 }
 
 ::StoryTitle
@@ -67,7 +67,7 @@ NOTE: The Share dialog only displays links—specifically, anything that creates
 :: PassageReady
 /* Used for pre-passage-display tasks, like redoing dynamic changes (happens before the rendering of each passage). Generates no output. */
 
-:: Start
+:: The path upto the tower
 This is a test to see if this is displaying the right stuff
 
 :: Tag Names
