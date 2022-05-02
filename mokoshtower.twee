@@ -36,7 +36,7 @@ NOTE: The story menu only displays links—specifically, anything that creates a
 Examples:
 [[Inventory]]
 <<link "Schedule">>…<</link>> */
-[[Start]]
+[[The path upto the tower]]
 [[Links]]
 [[Templates]]
 [[Campaign Game Session Layout]]
@@ -63,6 +63,7 @@ NOTE: The Share dialog only displays links—specifically, anything that creates
 
 :: PassageHeader
 /* Prepended to each rendered passage. */
+passage()
 
 :: PassageReady
 /* Used for pre-passage-display tasks, like redoing dynamic changes (happens before the rendering of each passage). Generates no output. */
