@@ -64,7 +64,8 @@ NOTE: The Share dialog only displays links—specifically, anything that creates
 :: PassageHeader
 /* Prepended to each rendered passage. */
 <<set $currentpassage to passage()>>
-<<print $currentpassage>>
+!! <<print $currentpassage>>
+<hr>
 
 :: PassageReady
 /* Used for pre-passage-display tasks, like redoing dynamic changes (happens before the rendering of each passage). Generates no output. */
