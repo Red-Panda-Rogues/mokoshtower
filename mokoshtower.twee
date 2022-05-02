@@ -63,7 +63,7 @@ NOTE: The Share dialog only displays links—specifically, anything that creates
 
 :: PassageHeader
 /* Prepended to each rendered passage. */
-$currentpassage = passage()
+<<set $currentpassage to passage()>>
 <<print $currentpassage>>
 
 :: PassageReady
