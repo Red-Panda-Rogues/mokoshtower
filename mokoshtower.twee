@@ -1,13 +1,13 @@
 ::StoryData
 {
-    "ifid": "F2277A49-95C9-4B14-AE66-62526089F861",
+    "ifid": "26B7D5A6-2C87-47E5-BE24-98759905673A",
     "format": "SugarCube",
     "format-version": "2.36.1",
     "start": "Start"
 }
 
 ::StoryTitle
-Half Guinea Press
+Mokosh Tower
 
 :: StoryInit
 /* Used for pre-story-start initialization tasks, like variable initialization (happens at the beginning of story initialization). Generates no output. */
